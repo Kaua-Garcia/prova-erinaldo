@@ -1,4 +1,4 @@
-ES 6 
+EX 6 
 #include <stdio.h>
 
 

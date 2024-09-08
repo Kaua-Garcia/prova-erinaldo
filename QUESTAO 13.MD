@@ -1,23 +1,22 @@
 EX 13
 #include <stdio.h>
 
-// Função principal
+
 int main() {
     char operacao;
     float num1, num2, resultado;
 
-    // Solicita ao usuário que escolha a operação
+   
     printf("Escolha a operação (+, -, *, /): ");
     scanf(" %c", &operacao);
 
-    // Solicita ao usuário que insira os dois números
     printf("Digite o primeiro número: ");
     scanf("%f", &num1);
 
     printf("Digite o segundo número: ");
     scanf("%f", &num2);
 
-    // Realiza a operação selecionada
+   
     switch (operacao) {
         case '+':
             resultado = num1 + num2;

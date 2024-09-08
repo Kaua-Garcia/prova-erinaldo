@@ -1,4 +1,4 @@
-3EX
+3EX:
 #include <stdio.h>
 
 int verificarTrianguloValido(int lado1, int lado2, int lado3) {
